@@ -1,0 +1,142 @@
+[
+  {
+    "name": "BookZip",
+    "base_url": "https://bookzip.top/",
+    "complaint_format": "Есть почта, требуют доказательства прав заявителя на контент",
+    "parser": "generic",
+    "enabled": true
+  },
+  {
+    "name": "Библиотека fb2.top",
+    "base_url": "https://fb2.top/",
+    "complaint_format": "Отправка ссылки на почту, непонятно, нужно ли доказывать наличие прав",
+    "parser": "fb2_top",
+    "enabled": true
+  },
+  {
+    "name": "Avidreaders",
+    "base_url": "https://avidreaders.ru/",
+    "complaint_format": "Почта",
+    "parser": "avidreaders",
+    "enabled": true
+  },
+  {
+    "name": "fantasy kniga",
+    "base_url": "https://fantasy-kniga.com/",
+    "complaint_format": "Почта",
+    "parser": "generic",
+    "enabled": true
+  },
+  {
+    "name": "КулЛиб",
+    "base_url": "https://coollib.xyz/",
+    "complaint_format": "Почта, требуют доказать, что ты правообладатель",
+    "parser": "generic",
+    "enabled": true
+  },
+  {
+    "name": "Литмир",
+    "base_url": "https://litmir.club",
+    "complaint_format": "Форма обратной связи",
+    "parser": "litmir",
+    "enabled": true
+  },
+  {
+    "name": "ТопЛиба",
+    "base_url": "https://topliba.com/",
+    "complaint_format": "Есть почта, но не сказано, что обязываются быстро удалять",
+    "parser": "generic",
+    "enabled": true
+  },
+  {
+    "name": "Книгаго",
+    "base_url": "https://www.knigago.com/",
+    "complaint_format": "Форма обратной связи",
+    "parser": "generic",
+    "enabled": true
+  },
+  {
+    "name": "kniga-online.com",
+    "base_url": "https://kniga-online.com/",
+    "complaint_format": "Почта",
+    "parser": "generic",
+    "enabled": true
+  },
+  {
+    "name": "Литвек",
+    "base_url": "https://litvek.com/",
+    "complaint_format": "Форма обратной связи",
+    "parser": "generic",
+    "enabled": true
+  },
+  {
+    "name": "baza-book.com",
+    "base_url": "https://baza-book.com/",
+    "complaint_format": "Почта",
+    "parser": "generic",
+    "enabled": true
+  },
+  {
+    "name": "Ридли",
+    "base_url": "https://readli.net/",
+    "complaint_format": "Форма обратной связи",
+    "parser": "readli",
+    "enabled": true
+  },
+  {
+    "name": "Onlinereads.net",
+    "base_url": "https://onlinereads.net/",
+    "complaint_format": "Почта",
+    "parser": "generic",
+    "enabled": true
+  },
+  {
+    "name": "siteknig.com",
+    "base_url": "https://siteknig.com/",
+    "complaint_format": "Почта",
+    "parser": "generic",
+    "enabled": true
+  },
+  {
+    "name": "moreknig",
+    "base_url": "https://moreknig.org/",
+    "complaint_format": "Есть почта, но не сказано, что обязываются быстро удалять",
+    "parser": "generic",
+    "enabled": true
+  },
+  {
+    "name": "LitLib",
+    "base_url": "https://www.litlib.net/",
+    "complaint_format": "Почта, требуют доказать, что ты правообладатель",
+    "parser": "generic",
+    "enabled": true
+  },
+  {
+    "name": "online-biblioteka.com",
+    "base_url": "https://online-biblioteka.com/",
+    "complaint_format": "Почта",
+    "parser": "generic",
+    "enabled": true
+  },
+  {
+    "name": "knigkindom.ru",
+    "base_url": "https://knigkindom.ru",
+    "complaint_format": "Форма обратной связи и почта на выбор",
+    "parser": "generic",
+    "enabled": true
+  },
+  {
+    "name": "e-booka.com",
+    "base_url": "https://e-booka.com",
+    "complaint_format": "Есть почта, но не сказано, что обязываются быстро удалять",
+    "parser": "generic",
+    "enabled": true
+  },
+  {
+    "name": "mir-knigi.net",
+    "base_url": "https://mir-knigi.net",
+    "complaint_format": "Форма обратной связи",
+    "parser": "generic",
+    "enabled": true
+  }
+]

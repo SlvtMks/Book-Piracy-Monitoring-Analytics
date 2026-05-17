@@ -1,0 +1,9 @@
+[
+  {
+    "name": "КулЛиб",
+    "base_url": "https://coollib.xyz/",
+    "complaint_format": "Почта, требуют доказать, что ты правообладатель",
+    "parser": "generic",
+    "enabled": true
+  }
+]

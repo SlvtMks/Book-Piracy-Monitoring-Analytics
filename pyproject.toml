@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "piracy-monitor-mvp"
+version = "0.1.0"
+description = "MVP monitoring and analytics for external book publications"
+requires-python = ">=3.11"
+dependencies = [
+  "requests>=2.32.0",
+  "beautifulsoup4>=4.12.0",
+  "openpyxl>=3.1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0.0",
+  "ruff>=0.6.0",
+]
+
+[tool.setuptools]
+packages = ["pirate_monitor", "pirate_monitor.sources"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-p no:cacheprovider"
+norecursedirs = [
+  "pytest-cache-files-*",
+  ".pytest_cache",
+  ".pytest_basetemp_local",
+  ".pytest-tmp",
+  "pytest_tmp_local",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+exclude = [
+  ".git",
+  ".pytest_cache",
+  ".pytest_basetemp_local",
+  "output",
+  "reports",
+]
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]

@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Litnet",
+    "base_url": "https://litnet.com/",
+    "search_url": "https://litnet.com/ru/search",
+    "search_param": "q",
+    "notes": "Официальный источник, уже используется в проекте"
+  },
+  {
+    "name": "Author.Today",
+    "base_url": "https://author.today/",
+    "search_url": "https://author.today/search",
+    "search_param": "q",
+    "notes": "Официальный источник с встроенным поиском"
+  },
+  {
+    "name": "ЛитРес",
+    "base_url": "https://www.litres.ru/",
+    "search_url": "https://www.litres.ru/search/",
+    "search_param": "q",
+    "notes": "Официальный источник с встроенным поиском"
+  },
+  {
+    "name": "ЛитГород",
+    "base_url": "https://litgorod.ru/",
+    "search_url": "https://litgorod.ru/books/search",
+    "search_param": "q",
+    "notes": "Официальный источник с поиском по книгам"
+  },
+  {
+    "name": "Литмаркет",
+    "base_url": "https://litmarket.ru/",
+    "search_url": "https://litmarket.ru/search",
+    "search_param": "q",
+    "notes": "Официальный источник с встроенным поиском"
+  }
+]

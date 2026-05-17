@@ -1,0 +1,30 @@
+[
+  {
+    "name": "BookZip",
+    "base_url": "https://bookzip.top/",
+    "complaint_format": "Есть почта, требуют доказательства прав заявителя на контент",
+    "parser": "generic",
+    "enabled": true
+  },
+  {
+    "name": "Avidreaders",
+    "base_url": "https://avidreaders.ru/",
+    "complaint_format": "Почта",
+    "parser": "avidreaders",
+    "enabled": true
+  },
+  {
+    "name": "LitLib",
+    "base_url": "https://www.litlib.net/",
+    "complaint_format": "Почта, требуют доказать, что ты правообладатель",
+    "parser": "generic",
+    "enabled": true
+  },
+  {
+    "name": "mir-knigi.net",
+    "base_url": "https://mir-knigi.net",
+    "complaint_format": "Форма обратной связи",
+    "parser": "generic",
+    "enabled": true
+  }
+]
