@@ -115,3 +115,10 @@ python main.py analytics-report --author-name "Арина Арская"
 - хранит историю удаления и повторного появления;
 - помогает приоритизировать сайты по риску;
 - создаёт основу для последующего takedown workflow и управленческой отчётности.
+
+
+## License
+
+This project is available for personal, educational, research, and other non-commercial use only.
+
+Commercial use is prohibited without prior written permission from the author.
